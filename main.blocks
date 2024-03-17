@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="CzGcK/[[q[SQ@rriUTLh" x="338" y="-31"><statement name="HANDLER"><block type="controls_if" id="DF#EI[I1^fxwH^N16yAC"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="ZmJ=eyeF{rgnX8W_!X$t"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="KXe:s`L2b!V(5Q(Gr7L^"></block></value><value name="B"><shadow type="math_number" id="L4cO6xKFVA.n-B`XkRha"><field name="NUM">50</field></shadow></value></block></value><statement name="DO0"><block type="servoservosetangle" id="bfGNJo3PRuUH}Rr4UePM"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="3swvVN]vg.[Mc@?|B$~1"><field name="angle">0</field></shadow></value><next><block type="device_show_leds" id="$DV//mg:bdk%)pPw47}c"><field name="LEDS">`
+        # . . . # 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></statement><statement name="ELSE"><block type="servoservosetangle" id="4nG!P9:gD~s[j(|!8=N^"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="||+4a;v!7n-nGj$=ZR[e"><field name="angle">90</field></shadow></value><next><block type="device_show_leds" id="zb]lzHEa,5#xPau2Tqr%"><field name="LEDS">`
+        . . . . . 
+        . # # # . 
+        . # # # . 
+        . # # # . 
+        . . . . .
+        `</field></block></next></block></statement></block></statement></block><block type="pxt-on-start" id=".77#iWiNVsvZ~1(u0q6:" x="0" y="0"><statement name="HANDLER"><block type="servoservosetangle" id="8v@%Qys^wUB[T{^zE!uk"><field name="servo">servos.P0</field><value name="degrees"><shadow type="protractorPicker" id="fSZl$.Vg$;*.^Vz^R9qi"><field name="angle">0</field></shadow></value></block></statement></block></xml>
